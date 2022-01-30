@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    height: 78vh;
+    margin: 0px 3px;
+    border-radius: 14px;
+    
+
+}
+
+.navbar1{
+    
+    display: flex;
+    background-color: #d5992b;
+    position: fixed;
+    top: 0px;
+    left: 11px;
+    right: 11px;
+    z-index: 233;
+    width: 99%;
+    border-top: 8px solid white;
+    border-radius: 14px;
+    
+   
+    
+}
+.navbar ul{
+display: flex;
+    
+
+}
+
+.item{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 3px 3px;
+    font-weight: bold;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    
+}
+.item a:hover{
+    text-decoration: underline;
+    color:grey
+}
+.li{
+    display: flex;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+.img img{
+    border-radius: 50px;
+    margin: 0px 21px;
+    margin-top: 7px;
+    /* position: absolute;
+    top: 3px;
+    left: 3px; */
+    border: 2px solid white;
+
+}
+.heading{
+    position: absolute;
+    top: 131px;
+    right: 366px;
+    width: 544px;
+    text-align: center;
+    color: gray;
+}
+.img1 img{
+    width: 186px;
+    height: 186px;
+    border-radius: 318px;
+}
+.heading h2{
+    color: gray;
+    padding: 17px 2px;
+}
+.cardwhole{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 611px;
+    left: 21px;
+    text-align: center;
+
+    
+}
+.cardwhole h2{
+    margin: 40px 2px;
+}
+.card{
+    margin: 6px 48px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 21rem;
+}
+.cardflex{
+    display: flex;
+    flex-direction: row;
+}
+.videos{
+    position: absolute;
+    text-align: center;
+    top: 1457px;
+    left: 54px;
+}
+.videos h2{
+    margin: 59px 2px;
+}
+.video{
+    margin: 1px 26px;
+}
+.copy{
+    width: 100%;
+    height: 206px;
+    background-color: #2c2c2c;
+    color: white;
+    position: absolute;
+    top: 1946px;
+    right: 0px;
+}
+.copy .right{
+    position: absolute;
+    top: 37px;
+    right: 66px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.right a:hover{
+    text-align: underline;
+    color: gray;
+}
+.copy .middle{
+    position: absolute;
+    top: 32px;
+    right: 587px;
+}
+.middle li{
+    list-style: none;
+    margin: 4px;
+}
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+.middle a:hover{
+    text-align: underline;
+    color: gray;
+}
+.copy .left{
+    position: absolute;
+    bottom: 0px;
+    left: 36px;
+}
